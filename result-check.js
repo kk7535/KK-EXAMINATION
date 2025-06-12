@@ -1,6 +1,14 @@
 
 const resultsData = [
   {
+    psid: "1153",
+    rollNumber: "35",
+    name: "VERMA",
+    exam: "KK MOCK Test",
+    score: 21,
+    status: "Passed"
+  },
+   {
     psid: "PR1153",
     rollNumber: "7535",
     name: "PRAGYA VERMA",
@@ -8,6 +16,7 @@ const resultsData = [
     score: 21,
     status: "Passed"
   }
+  
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
