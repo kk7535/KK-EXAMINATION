@@ -1,11 +1,11 @@
 
 const resultsData = [
   {
-    psid: "PSID001",
-    rollNumber: "ROLL001",
-    name: "Ayesha Khan",
-    exam: "KK Aptitude Test",
-    score: 88,
+    psid: "PR1153",
+    rollNumber: "7535",
+    name: "PRAGYA VERMA",
+    exam: "KK MOCK Test",
+    score: 21,
     status: "Passed"
   }
 ];
