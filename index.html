@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KK Examination</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="w-full shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <img src="images/PicsArt_11-14-03.18.07.png" alt="KK Examination Logo" width="40">
+>
+      <div class="text-2xl font-bold text-green-600">
+        KK Examination
+      </div>
+
+      <!-- Navigation -->
+      <nav class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+        <a href="#features" class="text-gray-700 hover:text-blue-600 transition">Features</a>
+        <a href="#exams" class="text-gray-700 hover:text-blue-600 transition">Exams</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="hidden md:flex space-x-4">
+        <a href="#" class="text-sm px-4 py-2 border border-green-600 text-green-600 rounded-md hover:bg-green-50 transition">Login</a>
+        <a href="#" class="text-sm px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition">Register</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+          <!-- Hamburger Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center justify-between">
+    
+    <!-- Text Content -->
+    <div class="w-full md:w-1/2 text-center md:text-left">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Prepare. Register. Succeed.
+      </h1>
+      <p class="text-lg text-gray-600 mb-8">
+        Join thousands of students preparing for success with KK Examination. Streamline your journey from registration to results.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <a href="#" class="px-6 py-3 bg-green-600 text-white text-sm font-semibold rounded-md hover:bg-green-700 transition">
+          Get Started
+        </a>
+        <a href="#about" class="px-6 py-3 border border-green-600 text-green-600 text-sm font-semibold rounded-md hover:bg-green-50 transition">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    
+
+
+<!-- Features Section -->
+<section id="features" class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    
+    <!-- Section Title -->
+    <h2 class="text-3xl font-bold text-gray-900 mb-4">Why Choose KK Examination?</h2>
+    <p class="text-gray-600 mb-12 text-lg">
+      We provide everything you need to prepare and succeed.
+    </p>
+
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Feature Card 1 -->
+      <div class="bg-gray-50 rounded-xl p-6 shadow hover:shadow-md transition">
+        <div class="flex justify-center items-center mb-4">
+          <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Simple Registration</h3>
+        <p class="text-gray-600 text-sm">
+          Register for exams quickly with our easy-to-use online platform.
+        </p>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="bg-gray-50 rounded-xl p-6 shadow hover:shadow-md transition">
+        <div class="flex justify-center items-center mb-4">
+          <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20l9-5-9-5-9 5 9 5z" />
+            <path d="M12 12l9-5-9-5-9 5 9 5z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Smart Preparation</h3>
+        <p class="text-gray-600 text-sm">
+          Access study plans, previous papers, and mock exams tailored to your needs.
+        </p>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="bg-gray-50 rounded-xl p-6 shadow hover:shadow-md transition">
+        <div class="flex justify-center items-center mb-4">
+          <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 17v-6h13M9 12l-4 4m0 0l-4-4m4 4V3" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Instant Results</h3>
+        <p class="text-gray-600 text-sm">
+          Get real-time result updates and performance analytics right after exams.
+        </p>
+      </div>
+
+ <!-- Result Check Section -->
+ <section id="result-check" class="bg-gray-100 py-16">
+    <div class="max-w-xl mx-auto text-center px-4">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Check Your Result</h2>
+      <p class="text-gray-600 mb-6">Enter your PSID and Roll Number to find your result.</p>
+
+      <form id="resultForm" class="space-y-4">
+        <input type="text" id="psid" placeholder="Enter PSID" required class="w-full px-4 py-3 border rounded-md">
+        <input type="text" id="rollNumber" placeholder="Enter Roll Number" required class="w-full px-4 py-3 border rounded-md">
+        <button type="submit" class="w-full py-3 bg-green-600 text-white rounded-md">View Result</button>
+      </form>
+
+      <div id="resultOutput" class="mt-6 text-left hidden"></div>
+    </div>
+  </section>
+
+
+<!-- Exam Timeline Section -->
+<section id="exams" class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Upcoming Exams</h2>
+    <p class="text-center text-gray-600 mb-12 text-lg">Stay on track with important dates</p>
+
+    <div class="overflow-x-auto">
+      <div class="flex space-x-8 min-w-[600px] md:min-w-full">
+        <!-- Exam Card 1 -->
+        <div class="flex-shrink-0 bg-gray-50 rounded-xl shadow p-6 w-64 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">K.K MocK Test</h3>
+          <p class="text-sm text-gray-600 mb-2">Date: June 15, 2025</p>
+          <span class="inline-block text-xs font-medium bg-green-100 text-green-600 px-3 py-1 rounded-full">Registration Open</span>
+        </div>
+
+        <!-- Exam Card 2 -->
+        <div class="flex-shrink-0 bg-gray-50 rounded-xl shadow p-6 w-64 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">K.K Entrance Exam</h3>
+          <p class="text-sm text-gray-600 mb-2">Date: August 10, 2025</p>
+          <span class="inline-block text-xs font-medium bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full">Coming Soon</span>
+        </div>
+
+        <!-- Exam Card 3 -->
+        <div class="flex-shrink-0 bg-gray-50 rounded-xl shadow p-6 w-64 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">K.K Final Certification</h3>
+          <p class="text-sm text-gray-600 mb-2">Date: September 5, 2025</p>
+          <span class="inline-block text-xs font-medium bg-red-100 text-red-600 px-3 py-1 rounded-full">Closed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA Section -->
+<section id="cta" class="bg-green-600 text-white py-16">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+      Ready to Take the Next Step?
+    </h2>
+    <p class="text-lg mb-8">
+      Start your journey with KK Examination and secure your future today.
+    </p>
+    <a href="#register" class="inline-block px-6 py-3 bg-white text-green-600 font-semibold rounded-md shadow hover:bg-gray-100 transition">
+      Register Now
+    </a>
+  </div>
+</section>
+
+
+
+
+<!-- Newsletter / Updates Section -->
+<section id="newsletter" class="bg-gray-50 py-20">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    
+    <h2 class="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
+    <p class="text-gray-600 text-lg mb-8">
+      Subscribe to get the latest exam alerts, tips, and updates from KK Examination.
+    </p>
+
+    <!-- Subscription Form -->
+    <form class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <input 
+        type="email" 
+        placeholder="Enter your email" 
+        class="w-full sm:w-auto px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        required
+      />
+      <button 
+        type="submit" 
+        class="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-blue-700 transition font-semibold"
+      >
+        Subscribe
+      </button>
+    </form>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-white border-t border-gray-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+      
+      <!-- Logo / About -->
+      <div>
+        <h3 class="text-xl font-bold text-green-600 mb-2">KK Examination</h3>
+        <p class="text-gray-600 text-sm">
+          Empowering students to prepare, register, and succeed in competitive exams with ease.
+        </p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div>
+        <h4 class="text-md font-semibold text-gray-800 mb-2">Quick Links</h4>
+        <ul class="text-gray-600 text-sm space-y-1">
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+          <li><a href="#exams" class="hover:text-blue-600">Exams</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div>
+        <h4 class="text-md font-semibold text-gray-800 mb-2">Follow Us</h4>
+        <div class="flex justify-center md:justify-start space-x-4">
+          <!-- Replace SVGs with actual icons or use font awesome -->
+          <a href="#" aria-label="Facebook" class="text-gray-500 hover:text-blue-600">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.58 9.95V15.4h-2.2v-2.6h2.2v-2c0-2.17 1.3-3.4 3.3-3.4.96 0 1.95.17 1.95.17v2.1H1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KK Examination</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+
+  <!-- ✅ Script tag placed correctly -->
+  <script src="js/result-check.js"></script>
+</body>
+</html>
+
+              
+
+
+
+
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,78 @@
+/* style.css */
+
+/* You can customize Tailwind overrides or add specific styles here */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Example: Smooth transitions for nav links */
+nav a {
+  transition: color 0.3s ease;
+}
+
+/* Optional: Shadow on hover for buttons */
+button:hover, a:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Optional: Mobile nav overlay style (if you add it later) */
+.mobile-menu {
+  background-color: white;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Utility fallback (if Tailwind fails to load) */
+.text-blue-600 {
+  color: #2563eb;
+}
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+/* styles.css */
+
+.hero h1 {
+  letter-spacing: -0.5px;
+}
+
+.hero img {
+  border-radius: 12px;
+}
+
+/* Optional: Add hover animation or card effect overrides */
+
+section#features .shadow {
+  transition: all 0.3s ease;
+}
+
+section#features .shadow:hover {
+  transform: translateY(-4px);
+}
+/* Optional horizontal scroll behavior */
+#exams .overflow-x-auto::-webkit-scrollbar {
+  height: 6px;
+}
+#exams .overflow-x-auto::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+/* Smooth hover effect for CTA button */
+#cta a:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+/* Add slight animation on input focus */
+#newsletter input:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); /* blue-500 ring */
+}
+
+/* Slight hover effect for button */
+#newsletter button:hover {
+  transform: translateY(-1px);
+  transition: transform 0.2s ease-in-out;
+}
+/* Optional hover animation for icons */
+footer a:hover svg {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
