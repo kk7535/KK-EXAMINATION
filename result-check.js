@@ -13,9 +13,17 @@ const resultsData = [
     rollNumber: "7535",
     name: "PRAGYA VERMA",
     exam: "KK MOCK Test",
-    score: 21,
+    score: 21/40 MARKS,
     status: "Passed"
-  }
+  },
+  {
+    psid: "AN1154",
+    rollNumber: "7536",
+    name: "ANSHUL SETH",
+    exam: "KK MOCK Test",
+    score: 35/40 MARKS,
+    status: "Passed"
+  },
   
 ];
 
