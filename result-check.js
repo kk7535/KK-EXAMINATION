@@ -13,7 +13,7 @@ const resultsData = [
     rollNumber: "7535",
     name: "PRAGYA VERMA",
     exam: "KK MOCK Test",
-    score: 21/40 MARKS,
+    score: 21/40 "MARKS",
     status: "Passed"
   },
   {
@@ -21,9 +21,9 @@ const resultsData = [
     rollNumber: "7536",
     name: "ANSHUL SETH",
     exam: "KK MOCK Test",
-    score: 35/40 MARKS,
+    score: 35/40 "MARKS",
     status: "Passed"
-  },
+  }
   
 ];
 
