@@ -23,7 +23,15 @@ const resultsData = [
     exam: "KK MOCK Test",
     score: 80,
     status: "Passed"
-  }
+  },
+  {
+    psid: "53",
+    rollNumber: "35",
+    name: "HIMANSU BHASKAR",
+    exam: "KK MOCK Test",
+    score: 100,
+    status: "Passed"
+  },
   
 ];
 
