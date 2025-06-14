@@ -3,9 +3,9 @@ const resultsData = [
   {
     psid: "1153",
     rollNumber: "35",
-    name: "VERMA",
+    name: "HIMANSHU BHASKAR",
     exam: "KK MOCK Test",
-    score: 21,
+    score: 100,
     status: "Passed"
   },
    {
