@@ -31,7 +31,7 @@ const resultsData = [
     exam: "KK MOCK Test",
     score: 100,
     status: "Passed"
-  },
+  }
   
 ];
 
